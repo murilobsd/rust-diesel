@@ -1,6 +1,6 @@
 # Rust Diesel
 
-install postresql (openbsd)
+## install postresql (openbsd)
 
 ```
 doas pkg_add postgresql-server
@@ -18,7 +18,13 @@ start server
 doas rcctl -f start postgresql
 ```
 
-install diesel client
+## install docker-compose
+
+```
+docker-compose up
+```
+
+## install diesel client
 
 ```
 cargo install diesel_cli --no-default-features --features postgres
